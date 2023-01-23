@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="image/spotify.png">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-wraper">
+            <div class="sidebar__logo">
+                <img src="image/Logo.png" alt="logo">
+            </div>
+            <div class="sidebar__menu">
+                <a class="sidebar__menu__selecionado" href="#"><i class="fas fa-home"></i>Início</a>
+                <a href="#"><i class="fas fa-search"></i>Buscar</a>
+                <a href="#"><i class="fas fa-database"></i>Biblioteca</a>
+            </div>
+
+            <div class="sidebar__menu">
+                <p class="sidebar__menu__title">Playlists</p>
+                <div class="sidebar__menu__item">
+                    <div class="sidebar__menu__item__componente">
+                        +
+                    </div>
+                    <span>Criar Playlist</span>
+                </div>
+                
+                <div class="sidebar__menu__item">
+                    <img src="image/Curtidas.png" alt="musicas-curtidas">
+                    <span>Músicas Curtidas</span>
+                </div>
+            </div>
+            <div class="sidebar__playlists">
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 2</a>
+                <a href="">Playlist 3</a>
+                <a href="">Playlist 4</a>
+                <a href="">Playlist 5</a>
+                <a href="">Playlist 6</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="main-wraper">
+            <div class="main__row">
+                <div class="main__row__title"><h2>Seus mixes mais ouvidos</h2></div>
+                <div class="main__col">
+                    <img src="image/MetalCore.png" alt="MetalCore">
+                    <h3>Metalcore Classics</h3>
+                    <p>The perfect mix between old-school and modern Metalcore</p>
+                </div>
+
+                <div class="main__col">
+                    <img src="image/Descoberta.png" alt="Discover">
+                    <h3>Descobertas da Semana</h3>
+                    <p>Sua mixtape semanal com base em suas preferências</p>
+                </div>
+
+                <div class="main__col">
+                    <img src="image/Curtidas.png" alt="musicas-curtidas">
+                    <h3>Músicas Curtidas</h3>
+                    <p>616 mùsicas</p>
+                </div>
+
+                <div class="main__col">
+                    <img src="image/Robert.png" alt="Robert-Cristian">
+                    <h3>Robert Cristian x Sonny Flame</h3>
+                    <p>The best duo mix songs</p>
+                </div>
+            </div>
+
+            <div class="main__row">
+                <div class="main__row__title"><h2>Tocadas Recentemente</h2></div>
+                <div class="main__col">
+                    <img src="image/Blackpink.png" alt="Blackpink">
+                    <h3>BLACKPINK</h3>
+                    <p>Lovesick Girls</p>
+                </div>
+
+                <div class="main__col">
+                    <img src="image/Double.png" alt="Double-you">
+                    <h3>Double You</h3>
+                    <p>Megamix album</p>
+                </div>
+
+                <div class="main__col">
+                    <img src="image/Juicy.png" alt="Juicy-wrld">
+                    <h3>This is Juicy WRLD</h3>
+                    <p>This is Juice WRLD. The essential tracks, all in one playlist</p>
+                </div>
+
+                <div class="main__col">
+                    <img src="image/Bring.png" alt="Bmth">
+                    <h3>This is Bring Me The Horizon. </h3>
+                    <p>Todos os maiores hits em uma só playlist.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="player">
+        <div class="player__artist">
+        </div>
+        <div class="player__control">
+            <div class="player__control__buttons">
+                <a href=""><i class="fas fa-backward"></i></a>
+                <a style="display: none;" id="pauseBtn" href=""><i class="far fa-pause-circle"></i></a>
+                <a id="playBtn" href=""><i class="far fa-play-circle"></i></a>
+                <a href=""><i class="fas fa-forward"></i></a>
+            </div>
+            <div class="player__control__progress">
+                <div style="width: 0%;" class="player__control__progress__2"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/all.min.js"></script>
+
+</body>
+</html>
